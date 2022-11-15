@@ -1,32 +1,57 @@
 
  
 
-  <div>
+
+ <header >
+  <div style="height: 80px" >
     <img src="https://prod.ucwe.capgemini.com/de-de/wp-content/themes/capgemini2020/assets/images/logo.svg">
 </div>
+</header>
 
-
-<div  id="carouselExampleSlidesOnly" class="carousel slide" class="relative" data-bs-ride="carousel">
-  <div class="carousel-inner">
-
-    <div class="carousel-item active" style="z-index: -1;">
-      <img  src="https://media-exp1.licdn.com/dms/image/C4D22AQHMaEuUFEbHnA/feedshare-shrink_2048_1536/0/1663690203546?e=2147483647&v=beta&t=kDio6BwQPnUKsMSw9kwWvC-J7qBJpvjqTtYH02FaSqM" class="d-block w-100" alt="...">
-    </div>
-
-    <div class="absolute inset-96"  class="card" style="width: 48rem; height: 18rem; background-color:#42a5f5; top: 40rem; right: 40rem; bottom: 40rem; left: 40rem;">
-      <div class="card-body">
-        <h2 class="card-title" class="text-2xl" style="color: white;">Wilkommen bei CapCarreer</h2>
-        <p class="card-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium harum, dolore magni obcaecati eaque est itaque hic? Est sint tenetur repudiandae tempora totam incidunt labore voluptatibus corrupti qui. Repudiandae, placeat!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium harum, dolore magni obcaecati eaque est itaque hic? Est sint tenetur repudiandae tempora totam incidunt labore voluptatibus corrupti qui. Repudiandae, placeat!
-        </p>
-        <a routerLink="/firstpage"  class="btn btn-primary"  class="flex items-center justify-center ">Umfrage</a>
+<div class="p-5 text-center bg-image" style="
+      background-image: url('https://media-exp1.licdn.com/dms/image/C4D22AQHMaEuUFEbHnA/feedshare-shrink_2048_1536/0/1663690203546?e=2147483647&v=beta&t=kDio6BwQPnUKsMSw9kwWvC-J7qBJpvjqTtYH02FaSqM');
+   
+      background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+    background-color: #1a1818;
+ ">
+    <!--<div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">-->
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white" style="position: relative; top:  300px;">
+         <div style="background-image: linear-gradient(239deg,#007bbd,#003f61);
+         opacity: .9;
+         border-radius: 4px;
+         box-shadow: 0 25px 100px 0 rgba(0,0,0,.15);
+         display: -ms-flexbox;
+         display: flex;
+         -ms-flex-direction: column;
+         flex-direction: column;
+         -ms-flex-pack: center;
+         justify-content: center;
+         -ms-flex-align: start;
+         align-items: flex-start;
+         min-height: calc((280/16)*1rem);
+         margin-top: calc(-273px + 3rem);
+         width: auto !important;
+         padding: 2rem;
+         flex: 0 0 auto;
+  width: 50%;"> <h1 style="font-size: 40px; position: bottom; font-family: sans-serif;"  class="mb-3">CAPCAREER           </h1></div>
+          <h4 class="mb-3">Subheading</h4>
+          <a style="font-size: 40px; background-color: rgba(56, 56, 226, 0.833); position: relative; left: 600px;" class="btn btn-outline-light btn-lg" href="#!" role="button" >Call to action</a>
+         
+        </div>
       </div>
     </div>
+  
 
+
+<footer class="bg-primary text-white text-center text-lg-start fixed-bottom">
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
   </div>
-</div>
- 
-<div>
-  <h1>Alle Jobsangebote sehen</h1>
-</div>
+</footer>
 <router-outlet></router-outlet>
